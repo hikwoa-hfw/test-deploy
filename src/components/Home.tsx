@@ -1,4 +1,4 @@
-import '../assets/undraw_feeling_proud_qne1.png'
+import gambar from "../assets/undraw_feeling_proud_qne1.png";
 
 const Home = () => {
   return (
@@ -8,13 +8,15 @@ const Home = () => {
         <div className="grid auto-rows-max py-16">
           <div className="px-1">Hello, i'm Hibban,</div>
           <div className="px-0 text-8xl">Web Developer</div>
-          <div className="px-1 mb-5font-semibold">based in Indonesia</div>
+          <div className="mb-5font-semibold px-1">based in Indonesia</div>
           <div className="mt-5 px-1">
-            <button className="bg-black px-5 py-2 mx-auto rounded-full text-white">Scroll Down ⇓</button>
+            <button className="mx-auto rounded-full bg-black px-5 py-2 text-white">
+              Scroll Down ⇓
+            </button>
           </div>
         </div>
         <div>
-          <img src="src/assets/undraw_feeling_proud_qne1.png" alt="" />
+          <img src={gambar} alt="" />
         </div>
       </div>
     </div>
