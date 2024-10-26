@@ -1,3 +1,5 @@
+import '../assets/undraw_feeling_proud_qne1.png'
+
 const Home = () => {
   return (
     <div className="container relative mx-auto h-[calc(100vh-121px)] w-full py-12">
