@@ -7,7 +7,7 @@ import { FaReact } from "react-icons/fa6";
 
 const Aboutme = () => {
   return (
-    <div className="container mx-auto flex h-screen items-center">
+    <div id="about-me" className="container mx-auto flex h-screen items-center">
       <div>
         <div className="mx-80">
           <h3 className="font-bold mb-6 mt-6">About Me</h3>
