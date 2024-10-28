@@ -5,7 +5,7 @@ import gambar4 from "../assets/Card - Element-desktop (4).png";
 
 const Project = () => {
   return (
-    <div className="container mx-auto mb-10 h-screen items-center">
+    <div id="my-project"className="container mx-auto py-24 mb-10 h-screen items-center">
       <div>
         <div className="mx-80">
           <h3 className="mb-6 font-bold">My Work</h3>

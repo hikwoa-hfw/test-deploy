@@ -1,6 +1,6 @@
 const Navbar = () => {
   const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
-    e.preventDefault(); // Mencegah perilaku default <a>
+    e.preventDefault(); 
     const section = document.getElementById(targetId);
     section?.scrollIntoView({ behavior: "smooth" });
   };
@@ -20,7 +20,7 @@ const Navbar = () => {
               <a href="#about-me" onClick={(e) => handleSmoothScroll(e, "about-me")}>About Me</a>
             </li>
             <li className="mx-3">
-              <a href="#my-project" onClick={(e) => handleSmoothScroll(e, "my-project")}>My Project</a>
+              <a href="#my-project" onClick={(e) => handleSmoothScroll(e, "my-project")}>My Work</a>
             </li>
             <li className="mx-3">
               <a href="#contact" onClick={(e) => handleSmoothScroll(e, "contact")}>Contact</a>
